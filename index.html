@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Column Layout Methods</title>
+  <style>
+    p {
+      padding: 0;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .container_1 {
+      display: inline-block;
+      padding: 10px;
+      background-color: gold;
+    }
+
+    .container {
+      display: inline-flex;
+      gap: 20px;
+      height: 20px;
+      padding: 10px;
+      margin-left: 40px;
+      background-color: gold;
+    }  
+    
+    .main_container {
+      display: inline-flex;
+      background-color: grey;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main_container">
+    <div class="container_1">
+      <p>Page Layout Methods</p>
+      <li><a href="./html-table.html">HTML Table</a></li>
+      <li><a href="./inline-block.html">Inline-Block</a></li>
+      <li><a href="./absolute-position.html">Absolute Positioning</a></li>
+      <li><a href="./float.html">Float</a></li>
+      <li><a href="./flex.html">Flexbox</a></li>
+    </div>
+
+    <div class="container">
+      <p>Page Layout Methods</p>
+      <div><a href="./html-table.html">HTML Table</a></div>
+      <div><a href="./inline-block.html">Inline-Block</a></div>
+      <div><a href="./absolute-position.html">Absolute Positioning</a></div>
+      <div><a href="./float.html">Float</a></div>
+      <div><a href="./flex.html">Flexbox</a></div>
+    </div>
+  </div>
+</body>
+
+</html>
