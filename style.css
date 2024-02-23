@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100vh;
+}
+
+#hero .card {
+    background-color: #929AAB;
+    margin: 0px;
+}
+
+#aboutme {
+    min-height: 80vh;
+}
+
+#aboutme .a {
+    min-width: 150px;
+}
+
+#hero {
+    background-color: #929AAB;
+    margin: 0px;
+}
+
+#footer {
+    background-color: #929AAB;
+    margin: 0px;
+    bottom: 0;
+}
