@@ -87,7 +87,6 @@ function updateLevelTitleText(textString) {
 async function startGame() {
   createGameData();
   reassignEventToDocument();
-  alert(arrayOfNumbers);
   for (let i = 0; i < arrayOfNumbers.length; i++) {
     if (!isGameRunning) break;
     await new Promise((resolve) => setTimeout(resolve, 1000));
