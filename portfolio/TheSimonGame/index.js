@@ -60,7 +60,7 @@ function createGameData() {
   isGameRunning = true;
   isWin = true;
   arrayOfNumbers = [];
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 10; i++) {
     let result = "";
     switch (Math.floor(Math.random() * 4)) {
       case 0:
