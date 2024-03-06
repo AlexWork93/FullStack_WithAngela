@@ -26,3 +26,8 @@ body {
     margin: 0px;
     bottom: 0;
 }
+
+.picture_dimension{
+    max-width: 1200px;
+    max-height: 1200px;
+}
