@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "inquirer": "^9.2.15",
+    "qr-image": "^3.2.0",
+    "superheroes": "^3.0.0"
+  },
+  "name": "fullstack_withangela",
+  "description": "My Site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexWork93/FullStack_WithAngela.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexWork93/FullStack_WithAngela/issues"
+  },
+  "homepage": "https://github.com/AlexWork93/FullStack_WithAngela#readme"
+}
